@@ -111,9 +111,9 @@
     _contentViewShadowOffset = CGSizeZero;
     _contentViewShadowOpacity = 0.4f;
     _contentViewShadowRadius = 8.0f;
-    _contentViewInLandscapeOffsetCenterX = 30.f;
-    _contentViewInPortraitOffsetCenterX  = 30.f;
-    _contentViewScaleValue = 0.7f;
+    _contentViewInLandscapeOffsetCenterX = 10.f;
+    _contentViewInPortraitOffsetCenterX  = 10.f;
+    _contentViewScaleValue = 0.95;
 }
 
 #pragma mark -
