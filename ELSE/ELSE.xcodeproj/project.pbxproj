@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03378698B2B1396BA41D44C9 /* libPods-ELSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CE9EDB6373759B5590E456 /* libPods-ELSE.a */; };
 		57C104171B4E489000F84456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C104161B4E489000F84456 /* AppDelegate.swift */; };
 		57C104191B4E489000F84456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C104181B4E489000F84456 /* ViewController.swift */; };
 		57C1041C1B4E489000F84456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C1041A1B4E489000F84456 /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13CE9EDB6373759B5590E456 /* libPods-ELSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELSE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E45CF40FBB8BE925B99AC1 /* Pods-ELSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSE.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELSE/Pods-ELSE.release.xcconfig"; sourceTree = "<group>"; };
+		57BEC5C81B58A4C600EE7D78 /* ELSE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELSE-Bridging-Header.h"; sourceTree = "<group>"; };
 		57C104131B4E489000F84456 /* ELSE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELSE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C104161B4E489000F84456 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57C104181B4E489000F84456 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 		57C104321B4E489000F84456 /* ELSEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELSEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C104361B4E489000F84456 /* ELSEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELSEUITests.swift; sourceTree = "<group>"; };
 		57C104381B4E489000F84456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61351DD1745D272B376EB157 /* Pods-ELSE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSE.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELSE/Pods-ELSE.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03378698B2B1396BA41D44C9 /* libPods-ELSE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 				57C1042A1B4E489000F84456 /* ELSETests */,
 				57C104351B4E489000F84456 /* ELSEUITests */,
 				57C104141B4E489000F84456 /* Products */,
+				57CC4604F15500CFF899793F /* Pods */,
+				D7D4CF3A7A5AAA98ECF3E0DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +111,7 @@
 				57C1041D1B4E489000F84456 /* Assets.xcassets */,
 				57C1041F1B4E489000F84456 /* LaunchScreen.storyboard */,
 				57C104221B4E489000F84456 /* Info.plist */,
+				57BEC5C81B58A4C600EE7D78 /* ELSE-Bridging-Header.h */,
 			);
 			path = ELSE;
 			sourceTree = "<group>";
@@ -125,6 +134,23 @@
 			path = ELSEUITests;
 			sourceTree = "<group>";
 		};
+		57CC4604F15500CFF899793F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61351DD1745D272B376EB157 /* Pods-ELSE.debug.xcconfig */,
+				42E45CF40FBB8BE925B99AC1 /* Pods-ELSE.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D7D4CF3A7A5AAA98ECF3E0DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CE9EDB6373759B5590E456 /* libPods-ELSE.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C1043B1B4E489000F84456 /* Build configuration list for PBXNativeTarget "ELSE" */;
 			buildPhases = (
+				4555B8724626CD87778BA24C /* Check Pods Manifest.lock */,
 				57C1040F1B4E489000F84456 /* Sources */,
 				57C104101B4E489000F84456 /* Frameworks */,
 				57C104111B4E489000F84456 /* Resources */,
+				C55922E3915E5930D67B51C9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +215,7 @@
 		57C1040B1B4E489000F84456 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = GuGu;
 				TargetAttributes = {
@@ -249,6 +278,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4555B8724626CD87778BA24C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C55922E3915E5930D67B51C9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELSE/Pods-ELSE-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57C1040F1B4E489000F84456 /* Sources */ = {
@@ -394,23 +456,30 @@
 		};
 		57C1043C1B4E489000F84456 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61351DD1745D272B376EB157 /* Pods-ELSE.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ELSE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gugutech.ELSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ELSE/ELSE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		57C1043D1B4E489000F84456 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E45CF40FBB8BE925B99AC1 /* Pods-ELSE.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ELSE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gugutech.ELSE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ELSE/ELSE-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -481,6 +550,7 @@
 				57C1043D1B4E489000F84456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C1043E1B4E489000F84456 /* Build configuration list for PBXNativeTarget "ELSETests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +559,7 @@
 				57C104401B4E489000F84456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57C104411B4E489000F84456 /* Build configuration list for PBXNativeTarget "ELSEUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +568,7 @@
 				57C104431B4E489000F84456 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
