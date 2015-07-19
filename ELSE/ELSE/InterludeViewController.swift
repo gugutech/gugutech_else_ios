@@ -18,6 +18,8 @@ class InterludeViewController: UIViewController {
 
     override func viewDidAppear(animated: Bool) {
         
+        
+        
         NSTimer.scheduledTimerWithTimeInterval(1.2, target: self, selector: "remove", userInfo: nil, repeats: false)
     }
     
