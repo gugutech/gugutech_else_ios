@@ -17,6 +17,16 @@ class ContentViewController: UITabBarController {
         
         self.title = "约"
         
+//        let orderStoryboard = UIStoryboard(name: "Order", bundle: nil)
+//        
+//        let vc1 = orderStoryboard.instantiateViewControllerWithIdentifier("OrderFirstViewController")
+//        
+//        let vc2 = orderStoryboard.instantiateViewControllerWithIdentifier("OrderSecondViewController")
+//        
+//        let vc3 = orderStoryboard.instantiateViewControllerWithIdentifier("OrderThirtViewController")
+//        
+//        self.viewControllers = [vc1, vc2, vc3]
+//        
     }
 
     override func didReceiveMemoryWarning() {
