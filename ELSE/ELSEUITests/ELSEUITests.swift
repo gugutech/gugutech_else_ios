@@ -2,8 +2,8 @@
 //  ELSEUITests.swift
 //  ELSEUITests
 //
-//  Created by Luliang on 15/7/9.
-//  Copyright © 2015年 GuGu. All rights reserved.
+//  Created by Luliang on 15/7/20.
+//  Copyright © 2015年 gugutech. All rights reserved.
 //
 
 import Foundation

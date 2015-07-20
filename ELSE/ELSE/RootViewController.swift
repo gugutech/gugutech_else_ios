@@ -35,10 +35,11 @@ class RootViewController: RESideMenu, RESideMenuDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
+        
         super.viewDidAppear(animated)
         self.backgroundImage = UIImage(named: "Stars")
-        
     }
+    
 }
 
 //----- MARK: RESideMenu Delegate

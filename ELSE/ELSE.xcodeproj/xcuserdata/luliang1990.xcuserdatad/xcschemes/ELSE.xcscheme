@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57C104121B4E489000F84456"
+               BlueprintIdentifier = "5738070A1B5CCFBB00575577"
                BuildableName = "ELSE.app"
                BlueprintName = "ELSE"
                ReferencedContainer = "container:ELSE.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57C104261B4E489000F84456"
+               BlueprintIdentifier = "573807211B5CCFBB00575577"
                BuildableName = "ELSETests.xctest"
                BlueprintName = "ELSETests"
                ReferencedContainer = "container:ELSE.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57C104311B4E489000F84456"
+               BlueprintIdentifier = "5738072C1B5CCFBB00575577"
                BuildableName = "ELSEUITests.xctest"
                BlueprintName = "ELSEUITests"
                ReferencedContainer = "container:ELSE.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57C104121B4E489000F84456"
+            BlueprintIdentifier = "5738070A1B5CCFBB00575577"
             BuildableName = "ELSE.app"
             BlueprintName = "ELSE"
             ReferencedContainer = "container:ELSE.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57C104121B4E489000F84456"
+            BlueprintIdentifier = "5738070A1B5CCFBB00575577"
             BuildableName = "ELSE.app"
             BlueprintName = "ELSE"
             ReferencedContainer = "container:ELSE.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57C104121B4E489000F84456"
+            BlueprintIdentifier = "5738070A1B5CCFBB00575577"
             BuildableName = "ELSE.app"
             BlueprintName = "ELSE"
             ReferencedContainer = "container:ELSE.xcodeproj">
