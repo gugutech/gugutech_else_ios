@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		03378698B2B1396BA41D44C9 /* libPods-ELSE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CE9EDB6373759B5590E456 /* libPods-ELSE.a */; };
+		57AEF1A91B5C979D0005A00B /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57AEF1A81B5C979D0005A00B /* Order.storyboard */; };
+		57AEF1AC1B5C99A20005A00B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AEF1AB1B5C99A20005A00B /* LoginViewController.swift */; };
+		57AEF1AE1B5C99B30005A00B /* PerDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57AEF1AD1B5C99B30005A00B /* PerDetailsViewController.swift */; };
 		57BEC5CF1B58A75C00EE7D78 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEC5CE1B58A75C00EE7D78 /* RootViewController.swift */; };
 		57BEC5D11B58B1CD00EE7D78 /* RightMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BEC5D01B58B1CD00EE7D78 /* RightMenuTableViewController.swift */; };
 		57BEC5D31B58B4DB00EE7D78 /* Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BEC5D21B58B4DB00EE7D78 /* Stars@2x.png */; };
@@ -41,6 +44,9 @@
 /* Begin PBXFileReference section */
 		13CE9EDB6373759B5590E456 /* libPods-ELSE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELSE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E45CF40FBB8BE925B99AC1 /* Pods-ELSE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSE.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELSE/Pods-ELSE.release.xcconfig"; sourceTree = "<group>"; };
+		57AEF1A81B5C979D0005A00B /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		57AEF1AB1B5C99A20005A00B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		57AEF1AD1B5C99B30005A00B /* PerDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerDetailsViewController.swift; sourceTree = "<group>"; };
 		57BEC5C81B58A4C600EE7D78 /* ELSE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ELSE-Bridging-Header.h"; sourceTree = "<group>"; };
 		57BEC5CE1B58A75C00EE7D78 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		57BEC5D01B58B1CD00EE7D78 /* RightMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuTableViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57AEF1AA1B5C998F0005A00B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				57AEF1AB1B5C99A20005A00B /* LoginViewController.swift */,
+				57AEF1AD1B5C99B30005A00B /* PerDetailsViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		57BEC5D41B58CC9E00EE7D78 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,12 +153,14 @@
 		57C104151B4E489000F84456 /* ELSE */ = {
 			isa = PBXGroup;
 			children = (
+				57AEF1AA1B5C998F0005A00B /* Login */,
 				57BEC5D61B58CCDA00EE7D78 /* RightMenu */,
 				57BEC5D41B58CC9E00EE7D78 /* Resource */,
 				57BEC5CE1B58A75C00EE7D78 /* RootViewController.swift */,
 				57BEC5D91B58DDFC00EE7D78 /* ContentViewController.swift */,
 				57C104161B4E489000F84456 /* AppDelegate.swift */,
 				57C1041A1B4E489000F84456 /* Main.storyboard */,
+				57AEF1A81B5C979D0005A00B /* Order.storyboard */,
 				57C1041D1B4E489000F84456 /* Assets.xcassets */,
 				57C1041F1B4E489000F84456 /* LaunchScreen.storyboard */,
 				57C104221B4E489000F84456 /* Info.plist */,
@@ -293,6 +310,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AEF1A91B5C979D0005A00B /* Order.storyboard in Resources */,
 				57C104211B4E489000F84456 /* LaunchScreen.storyboard in Resources */,
 				57C1041E1B4E489000F84456 /* Assets.xcassets in Resources */,
 				57BEC5D31B58B4DB00EE7D78 /* Stars@2x.png in Resources */,
@@ -354,6 +372,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57AEF1AE1B5C99B30005A00B /* PerDetailsViewController.swift in Sources */,
+				57AEF1AC1B5C99A20005A00B /* LoginViewController.swift in Sources */,
 				57BEC5DA1B58DDFC00EE7D78 /* ContentViewController.swift in Sources */,
 				57BEC5D11B58B1CD00EE7D78 /* RightMenuTableViewController.swift in Sources */,
 				57C104171B4E489000F84456 /* AppDelegate.swift in Sources */,

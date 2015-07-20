@@ -14,7 +14,7 @@ class RootViewController: RESideMenu, RESideMenuDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        self.navigationController?.navigationBarHidden = true
     }
     
     override func awakeFromNib() {
@@ -27,13 +27,17 @@ class RootViewController: RESideMenu, RESideMenuDelegate {
         self.contentViewShadowEnabled = true
         self.panGestureEnabled = false
         
-        self.contentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("HomeViewController"
-        )
-        self.rightMenuViewController = self.storyboard?.instantiateViewControllerWithIdentifier("RightMenuViewController")
-        
-        self.backgroundImage = UIImage(named: "Stars")
+        self.contentViewController = self.storyboard?.instantiateViewControllerWithIdentifier("HomeVC")
+        self.rightMenuViewController = self.storyboard?.instantiateViewControllerWithIdentifier("RightMenuVC")
         
         self.delegate = self
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        self.backgroundImage = UIImage(named: "Stars")
+        
     }
 }
 

@@ -19,7 +19,7 @@ class RightMenuTableViewController: UITableViewController {
         
         if indexPath.row > 0 {
             
-            let interludeVC = self.storyboard?.instantiateViewControllerWithIdentifier("InterludeViewController");
+            let interludeVC = self.storyboard?.instantiateViewControllerWithIdentifier("InterludeVC");
             self.sideMenuViewController.setContentViewController(interludeVC, animated: true)
         }
         self.sideMenuViewController.hideMenuViewController()
