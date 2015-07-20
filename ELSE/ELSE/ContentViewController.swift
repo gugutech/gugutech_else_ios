@@ -16,6 +16,7 @@ class ContentViewController: UITabBarController {
         // Do any additional setup after loading the view.
         
         self.title = "滚"
+        self.navigationController?.view.backgroundColor = UIColor.whiteColor()
         
 //        let orderStoryboard = UIStoryboard(name: "Order", bundle: nil)
 //        
